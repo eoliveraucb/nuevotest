@@ -1,0 +1,37 @@
+[
+  {
+    "id": "teamworkOperations",
+    "name": "Teamwork & Operations",
+    "description": ""
+  },
+  {
+    "id": "communityImpact",
+    "name": "Community & Impact",
+    "description": ""
+  },
+  {
+    "id": "financialAcumen",
+    "name": "Financial Acumen",
+    "description": ""
+  },
+  {
+    "id": "innovatorMindset",
+    "name": "Innovator Mindset",
+    "description": ""
+  },
+  {
+    "id": "computationalResearch",
+    "name": "Computational & Research Skills",
+    "description": ""
+  },
+  {
+    "id": "technologySkills",
+    "name": "Technology Skills",
+    "description": ""
+  },
+  {
+    "id": "mentorshipLeadership",
+    "name": "Mentorship & Leadership Quotient",
+    "description": ""
+  }
+]

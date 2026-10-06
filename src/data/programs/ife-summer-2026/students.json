@@ -1,0 +1,268 @@
+[
+  {
+    "id": "s001",
+    "name": "Adam Fatehali",
+    "teamId": "team-healthlink",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s002",
+    "name": "Victoria Giwa",
+    "teamId": "team-healthlink",
+    "hasOnboarding": true,
+    "hasExit": false
+  },
+  {
+    "id": "s003",
+    "name": "Valentina Girard",
+    "teamId": "team-healthlink",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s004",
+    "name": "Ali Heikal",
+    "teamId": "team-healthlink",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s005",
+    "name": "Sebastien Amor",
+    "teamId": "team-beliterate",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s006",
+    "name": "Jigsel Gontsang",
+    "teamId": "team-beliterate",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s007",
+    "name": "Stephanie Yu",
+    "teamId": "team-beliterate",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s008",
+    "name": "Elizabeth Saka",
+    "teamId": "team-beliterate",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s009",
+    "name": "Erumena Izeghe",
+    "teamId": "team-beliterate",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s010",
+    "name": "Tahsan Hoque",
+    "teamId": "team-subcycle",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s011",
+    "name": "Daniyal Fatehali",
+    "teamId": "team-subcycle",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s012",
+    "name": "Sebastian King-Davis",
+    "teamId": "team-subcycle",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s013",
+    "name": "Elijah Adewunmi",
+    "teamId": "team-subcycle",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s014",
+    "name": "Sarah Etienne",
+    "teamId": "team-lawleo",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s015",
+    "name": "Alexander Lopez Martinez",
+    "teamId": "team-lawleo",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s016",
+    "name": "Samiha Tasnim",
+    "teamId": "team-lawleo",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s017",
+    "name": "Antonio Wright-Verdejo",
+    "teamId": "team-lawleo",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s018",
+    "name": "Alex Rowe",
+    "teamId": "team-keystone-careers",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s019",
+    "name": "Cameron Jenkins",
+    "teamId": "team-keystone-careers",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s020",
+    "name": "Max Finisterre",
+    "teamId": "team-keystone-careers",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s021",
+    "name": "Kejaun  Jones",
+    "teamId": "team-keystone-careers",
+    "hasOnboarding": false,
+    "hasExit": true
+  },
+  {
+    "id": "s022",
+    "name": "Salali SaltPaw",
+    "teamId": "team-keystone-careers",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s023",
+    "name": "Gabrielle Boateng",
+    "teamId": "team-thebetterorder",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s024",
+    "name": "Mahawa Bagayoko",
+    "teamId": "team-thebetterorder",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s025",
+    "name": "Sulien Diaz",
+    "teamId": "team-thebetterorder",
+    "hasOnboarding": true,
+    "hasExit": false
+  },
+  {
+    "id": "s026",
+    "name": "Thomas Chu",
+    "teamId": "team-thebetterorder",
+    "hasOnboarding": true,
+    "hasExit": false
+  },
+  {
+    "id": "s027",
+    "name": "Carter Crump",
+    "teamId": "team-classconnect",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s028",
+    "name": "Tahleel Aayan",
+    "teamId": "team-classconnect",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s029",
+    "name": "Ava Hansen",
+    "teamId": "team-classconnect",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s030",
+    "name": "Tima Yara",
+    "teamId": "team-classconnect",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s031",
+    "name": "Danny Lam",
+    "teamId": "team-amicable",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s032",
+    "name": "mikayla grullon",
+    "teamId": "team-amicable",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s033",
+    "name": "Awa Sangare",
+    "teamId": "team-amicable",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s034",
+    "name": "Tenzin Lhading",
+    "teamId": "team-amicable",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s035",
+    "name": "Luca Webb",
+    "teamId": "team-forage",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s036",
+    "name": "Earl Carter",
+    "teamId": "team-forage",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s037",
+    "name": "David Lozado",
+    "teamId": "team-forage",
+    "hasOnboarding": true,
+    "hasExit": true
+  },
+  {
+    "id": "s038",
+    "name": "Sophia Vega",
+    "teamId": "team-forage",
+    "hasOnboarding": true,
+    "hasExit": true
+  }
+]

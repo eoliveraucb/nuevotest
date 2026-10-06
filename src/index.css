@@ -1,0 +1,4 @@
+/* Base reset — theme tokens live in styles/theme.css */
+#root {
+  min-height: 100svh;
+}

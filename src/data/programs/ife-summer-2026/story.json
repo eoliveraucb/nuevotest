@@ -1,0 +1,35 @@
+{
+  "hero": {
+    "kicker": "A Cambio Labs Impact Story",
+    "title": "From Idea to Impact",
+    "subtitle": "How students in the Institute for Entrepreneurship built real businesses — and grew right alongside them.",
+    "scrollCue": "Scroll to begin"
+  },
+  "chapters": [
+    {
+      "id": "cambio",
+      "heading": "Who is Cambio Labs?",
+      "body": "Cambio Labs is a nonprofit dedicated to cultivating the next generation of changemakers. Cambio — Spanish for \"change\" — reflects the organization's mission: equipping students with the entrepreneurial mindset and skills to turn the problems they see in their communities into real, sustainable solutions."
+    },
+    {
+      "id": "prepforprep",
+      "heading": "Partnering with Prep for Prep",
+      "body": "Prep for Prep identifies talented students of color across New York City and prepares them for leadership at top independent schools and beyond. Together, Cambio Labs and Prep for Prep launched the Institute for Entrepreneurship (IFE) — a program designed to give students hands-on experience building something of their own."
+    },
+    {
+      "id": "ife",
+      "heading": "What is the IFE Program?",
+      "body": "Over the course of the program, students are placed into small teams and challenged to design a business that creates real impact in their community. Guided by mentors, they move through ideation, market research, financial planning, and prototyping — culminating in a final pitch to a panel of judges."
+    },
+    {
+      "id": "whattheydid",
+      "heading": "What the Students Did",
+      "body": "9 teams. 9 community problems. 9 businesses built from scratch — spanning healthcare access, civic and financial literacy, urban sustainability, legal access, workforce development, nutrition, education, and food security. Along the way, students didn't just build companies. They built skills: teamwork, community impact, financial acumen, and the confidence to pitch an idea to a room of judges."
+    },
+    {
+      "id": "transition",
+      "heading": "But building a business was only half the story.",
+      "body": "Students entered the IFE program with different strengths, experiences, and levels of confidence. Over the course of the program, they worked in teams, developed projects, received feedback, and applied new skills. This is what their growth looked like."
+    }
+  ]
+}
