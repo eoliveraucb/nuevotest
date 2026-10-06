@@ -1,0 +1,938 @@
+[
+  {
+    "studentId": "s001",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 3,
+      "communityImpact": 2.67,
+      "financialAcumen": 3.17,
+      "innovatorMindset": 3.33,
+      "computationalResearch": 4,
+      "technologySkills": 3.83,
+      "mentorshipLeadership": 3.5
+    }
+  },
+  {
+    "studentId": "s001",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 4,
+      "communityImpact": 4,
+      "financialAcumen": 4,
+      "innovatorMindset": 4,
+      "computationalResearch": 4,
+      "technologySkills": 4,
+      "mentorshipLeadership": 4
+    }
+  },
+  {
+    "studentId": "s002",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 3.17,
+      "communityImpact": 3.17,
+      "financialAcumen": 2.5,
+      "innovatorMindset": 3.33,
+      "computationalResearch": 2.83,
+      "technologySkills": 3.33,
+      "mentorshipLeadership": 3.5
+    }
+  },
+  {
+    "studentId": "s003",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 2.83,
+      "communityImpact": 2.17,
+      "financialAcumen": 2.2,
+      "innovatorMindset": 3.17,
+      "computationalResearch": 2.33,
+      "technologySkills": 2.83,
+      "mentorshipLeadership": 2.5
+    }
+  },
+  {
+    "studentId": "s003",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 3,
+      "communityImpact": 3.33,
+      "financialAcumen": 3.17,
+      "innovatorMindset": 3.33,
+      "computationalResearch": 3.67,
+      "technologySkills": 3.5,
+      "mentorshipLeadership": 3.83
+    }
+  },
+  {
+    "studentId": "s004",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 2.83,
+      "communityImpact": 3.17,
+      "financialAcumen": 3.5,
+      "innovatorMindset": 2.33,
+      "computationalResearch": 3.5,
+      "technologySkills": 2.83,
+      "mentorshipLeadership": 3.5
+    }
+  },
+  {
+    "studentId": "s004",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 3.33,
+      "communityImpact": 3.5,
+      "financialAcumen": 3.5,
+      "innovatorMindset": 3,
+      "computationalResearch": 2.83,
+      "technologySkills": 3.33,
+      "mentorshipLeadership": 3.17
+    }
+  },
+  {
+    "studentId": "s005",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 3.17,
+      "communityImpact": 3.83,
+      "financialAcumen": 3.5,
+      "innovatorMindset": 3.83,
+      "computationalResearch": 3.67,
+      "technologySkills": 4,
+      "mentorshipLeadership": 3.17
+    }
+  },
+  {
+    "studentId": "s005",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 4,
+      "communityImpact": 4,
+      "financialAcumen": 4,
+      "innovatorMindset": 4,
+      "computationalResearch": 4,
+      "technologySkills": 4,
+      "mentorshipLeadership": 3.17
+    }
+  },
+  {
+    "studentId": "s006",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 2.83,
+      "communityImpact": 3.17,
+      "financialAcumen": 1.83,
+      "innovatorMindset": 2.5,
+      "computationalResearch": 2.17,
+      "technologySkills": 1.67,
+      "mentorshipLeadership": 3.5
+    }
+  },
+  {
+    "studentId": "s006",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 3,
+      "communityImpact": 3,
+      "financialAcumen": 2.67,
+      "innovatorMindset": 3,
+      "computationalResearch": 2.67,
+      "technologySkills": 2.67,
+      "mentorshipLeadership": 3.17
+    }
+  },
+  {
+    "studentId": "s007",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 3.33,
+      "communityImpact": 3.5,
+      "financialAcumen": 2.33,
+      "innovatorMindset": 2.67,
+      "computationalResearch": 3,
+      "technologySkills": 3.17,
+      "mentorshipLeadership": 2.67
+    }
+  },
+  {
+    "studentId": "s007",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 3.5,
+      "communityImpact": 3.17,
+      "financialAcumen": 2.83,
+      "innovatorMindset": 3.17,
+      "computationalResearch": 3.17,
+      "technologySkills": 3.67,
+      "mentorshipLeadership": 2.67
+    }
+  },
+  {
+    "studentId": "s008",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 2.83,
+      "communityImpact": 3,
+      "financialAcumen": 2.83,
+      "innovatorMindset": 3.2,
+      "computationalResearch": 3,
+      "technologySkills": 3.2,
+      "mentorshipLeadership": 3.17
+    }
+  },
+  {
+    "studentId": "s008",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 3.83,
+      "communityImpact": 3.67,
+      "financialAcumen": 3.67,
+      "innovatorMindset": 3.5,
+      "computationalResearch": 4,
+      "technologySkills": 3.33,
+      "mentorshipLeadership": 3.33
+    }
+  },
+  {
+    "studentId": "s009",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 3.33,
+      "communityImpact": 4,
+      "financialAcumen": 2.33,
+      "innovatorMindset": 3.83,
+      "computationalResearch": 3.33,
+      "technologySkills": 3.17,
+      "mentorshipLeadership": 3.5
+    }
+  },
+  {
+    "studentId": "s009",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 3.83,
+      "communityImpact": 4,
+      "financialAcumen": 3.33,
+      "innovatorMindset": 4,
+      "computationalResearch": 3.83,
+      "technologySkills": 3.5,
+      "mentorshipLeadership": 4
+    }
+  },
+  {
+    "studentId": "s010",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 3,
+      "communityImpact": 3.33,
+      "financialAcumen": 3.5,
+      "innovatorMindset": 3.83,
+      "computationalResearch": 3.83,
+      "technologySkills": 4,
+      "mentorshipLeadership": 3.67
+    }
+  },
+  {
+    "studentId": "s010",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 3.5,
+      "communityImpact": 3.5,
+      "financialAcumen": 3.17,
+      "innovatorMindset": 3.67,
+      "computationalResearch": 3.83,
+      "technologySkills": 4,
+      "mentorshipLeadership": 3.67
+    }
+  },
+  {
+    "studentId": "s011",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 3,
+      "communityImpact": 3.5,
+      "financialAcumen": 3.17,
+      "innovatorMindset": 3.5,
+      "computationalResearch": 3.67,
+      "technologySkills": 3.67,
+      "mentorshipLeadership": 3.67
+    }
+  },
+  {
+    "studentId": "s011",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 3.83,
+      "communityImpact": 3.5,
+      "financialAcumen": 4,
+      "innovatorMindset": 3.83,
+      "computationalResearch": 4,
+      "technologySkills": 4,
+      "mentorshipLeadership": 3.6
+    }
+  },
+  {
+    "studentId": "s012",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 3.17,
+      "communityImpact": 3.17,
+      "financialAcumen": 2.5,
+      "innovatorMindset": 3.17,
+      "computationalResearch": 3.17,
+      "technologySkills": 3,
+      "mentorshipLeadership": 3.33
+    }
+  },
+  {
+    "studentId": "s012",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 3,
+      "communityImpact": 2.33,
+      "financialAcumen": 2,
+      "innovatorMindset": 3,
+      "computationalResearch": 3,
+      "technologySkills": 3.33,
+      "mentorshipLeadership": 3.33
+    }
+  },
+  {
+    "studentId": "s013",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 3.5,
+      "communityImpact": 3.67,
+      "financialAcumen": 1.83,
+      "innovatorMindset": 3.17,
+      "computationalResearch": 3.5,
+      "technologySkills": 3.17,
+      "mentorshipLeadership": 3
+    }
+  },
+  {
+    "studentId": "s013",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 3.67,
+      "communityImpact": 3,
+      "financialAcumen": 2.33,
+      "innovatorMindset": 3.17,
+      "computationalResearch": 3.17,
+      "technologySkills": 3,
+      "mentorshipLeadership": 3.5
+    }
+  },
+  {
+    "studentId": "s014",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 3,
+      "communityImpact": 2.67,
+      "financialAcumen": 2.33,
+      "innovatorMindset": 2.33,
+      "computationalResearch": 2.83,
+      "technologySkills": 2.83,
+      "mentorshipLeadership": 3.5
+    }
+  },
+  {
+    "studentId": "s014",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 3.5,
+      "communityImpact": 2.83,
+      "financialAcumen": 3,
+      "innovatorMindset": 3.17,
+      "computationalResearch": 3.17,
+      "technologySkills": 3.33,
+      "mentorshipLeadership": 3.33
+    }
+  },
+  {
+    "studentId": "s015",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 3.17,
+      "communityImpact": 3,
+      "financialAcumen": 2.17,
+      "innovatorMindset": 2.83,
+      "computationalResearch": 3,
+      "technologySkills": 3.83,
+      "mentorshipLeadership": 2.67
+    }
+  },
+  {
+    "studentId": "s015",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 3,
+      "communityImpact": 3.67,
+      "financialAcumen": 2.5,
+      "innovatorMindset": 2.67,
+      "computationalResearch": 2.67,
+      "technologySkills": 3.33,
+      "mentorshipLeadership": 3.67
+    }
+  },
+  {
+    "studentId": "s016",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 3.67,
+      "communityImpact": 3.67,
+      "financialAcumen": 3.17,
+      "innovatorMindset": 3.33,
+      "computationalResearch": 2.83,
+      "technologySkills": 2.5,
+      "mentorshipLeadership": 3.83
+    }
+  },
+  {
+    "studentId": "s016",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 3.5,
+      "communityImpact": 3.17,
+      "financialAcumen": 3.17,
+      "innovatorMindset": 3.33,
+      "computationalResearch": 3.33,
+      "technologySkills": 3.67,
+      "mentorshipLeadership": 3.33
+    }
+  },
+  {
+    "studentId": "s017",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 2.67,
+      "communityImpact": 2.17,
+      "financialAcumen": 2.33,
+      "innovatorMindset": 2.83,
+      "computationalResearch": 3.5,
+      "technologySkills": 2.67,
+      "mentorshipLeadership": 2.33
+    }
+  },
+  {
+    "studentId": "s017",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 3.33,
+      "communityImpact": 3.17,
+      "financialAcumen": 3.5,
+      "innovatorMindset": 3,
+      "computationalResearch": 3.17,
+      "technologySkills": 3.5,
+      "mentorshipLeadership": 2.83
+    }
+  },
+  {
+    "studentId": "s018",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 3.33,
+      "communityImpact": 3.33,
+      "financialAcumen": 3.83,
+      "innovatorMindset": 3.67,
+      "computationalResearch": 3.5,
+      "technologySkills": 3.17,
+      "mentorshipLeadership": 3.17
+    }
+  },
+  {
+    "studentId": "s018",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 4,
+      "communityImpact": 4,
+      "financialAcumen": 3,
+      "innovatorMindset": 3.83,
+      "computationalResearch": 3.17,
+      "technologySkills": 3.5,
+      "mentorshipLeadership": 3.33
+    }
+  },
+  {
+    "studentId": "s019",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 3.67,
+      "communityImpact": 3,
+      "financialAcumen": 2.17,
+      "innovatorMindset": 3.33,
+      "computationalResearch": 2.83,
+      "technologySkills": 2.83,
+      "mentorshipLeadership": 3.5
+    }
+  },
+  {
+    "studentId": "s019",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 4,
+      "communityImpact": 3.67,
+      "financialAcumen": 3.5,
+      "innovatorMindset": 3.67,
+      "computationalResearch": 3.5,
+      "technologySkills": 3.67,
+      "mentorshipLeadership": 3.33
+    }
+  },
+  {
+    "studentId": "s020",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 3.33,
+      "communityImpact": 3.83,
+      "financialAcumen": 3.5,
+      "innovatorMindset": 4,
+      "computationalResearch": 4,
+      "technologySkills": 4,
+      "mentorshipLeadership": 4
+    }
+  },
+  {
+    "studentId": "s020",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 4,
+      "communityImpact": 4,
+      "financialAcumen": 3.67,
+      "innovatorMindset": 4,
+      "computationalResearch": 4,
+      "technologySkills": 4,
+      "mentorshipLeadership": 4
+    }
+  },
+  {
+    "studentId": "s021",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 3.17,
+      "communityImpact": 3.33,
+      "financialAcumen": 3.17,
+      "innovatorMindset": 3,
+      "computationalResearch": 3,
+      "technologySkills": 3.17,
+      "mentorshipLeadership": 3.5
+    }
+  },
+  {
+    "studentId": "s022",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 3.33,
+      "communityImpact": 3.67,
+      "financialAcumen": 3.83,
+      "innovatorMindset": 3.17,
+      "computationalResearch": 3.83,
+      "technologySkills": 3.33,
+      "mentorshipLeadership": 3.83
+    }
+  },
+  {
+    "studentId": "s022",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 4,
+      "communityImpact": 4,
+      "financialAcumen": 3.67,
+      "innovatorMindset": 3.83,
+      "computationalResearch": 4,
+      "technologySkills": 4,
+      "mentorshipLeadership": 4
+    }
+  },
+  {
+    "studentId": "s023",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 3.83,
+      "communityImpact": 3.17,
+      "financialAcumen": 3,
+      "innovatorMindset": 3.83,
+      "computationalResearch": 3.83,
+      "technologySkills": 3.17,
+      "mentorshipLeadership": 3.17
+    }
+  },
+  {
+    "studentId": "s023",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 3.5,
+      "communityImpact": 3.83,
+      "financialAcumen": 2.33,
+      "innovatorMindset": 3,
+      "computationalResearch": 3.67,
+      "technologySkills": 3.33,
+      "mentorshipLeadership": 3.5
+    }
+  },
+  {
+    "studentId": "s024",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 3.5,
+      "communityImpact": 3.17,
+      "financialAcumen": 2.83,
+      "innovatorMindset": 3.33,
+      "computationalResearch": 3.33,
+      "technologySkills": 3.33,
+      "mentorshipLeadership": 3.83
+    }
+  },
+  {
+    "studentId": "s024",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 3.5,
+      "communityImpact": 2.67,
+      "financialAcumen": 2.67,
+      "innovatorMindset": 2.33,
+      "computationalResearch": 2.83,
+      "technologySkills": 2.83,
+      "mentorshipLeadership": 3.33
+    }
+  },
+  {
+    "studentId": "s025",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 3.67,
+      "communityImpact": 4,
+      "financialAcumen": 3.67,
+      "innovatorMindset": 3.83,
+      "computationalResearch": 3.67,
+      "technologySkills": 4,
+      "mentorshipLeadership": 4
+    }
+  },
+  {
+    "studentId": "s026",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 2.67,
+      "communityImpact": 2.67,
+      "financialAcumen": 2.67,
+      "innovatorMindset": 2.67,
+      "computationalResearch": 2.67,
+      "technologySkills": 2.33,
+      "mentorshipLeadership": 2.67
+    }
+  },
+  {
+    "studentId": "s027",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 2,
+      "communityImpact": 2.33,
+      "financialAcumen": 1.33,
+      "innovatorMindset": 2.17,
+      "computationalResearch": 2.33,
+      "technologySkills": 2.83,
+      "mentorshipLeadership": 2.5
+    }
+  },
+  {
+    "studentId": "s027",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 2.17,
+      "communityImpact": 2.17,
+      "financialAcumen": 1,
+      "innovatorMindset": 2.33,
+      "computationalResearch": 2.33,
+      "technologySkills": 2.83,
+      "mentorshipLeadership": 1.67
+    }
+  },
+  {
+    "studentId": "s028",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 2.33,
+      "communityImpact": 2.67,
+      "financialAcumen": 2.5,
+      "innovatorMindset": 2.83,
+      "computationalResearch": 3,
+      "technologySkills": 3.5,
+      "mentorshipLeadership": 2.83
+    }
+  },
+  {
+    "studentId": "s028",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 2.67,
+      "communityImpact": 2.67,
+      "financialAcumen": 3.33,
+      "innovatorMindset": 3.5,
+      "computationalResearch": 3,
+      "technologySkills": 3.5,
+      "mentorshipLeadership": 2.67
+    }
+  },
+  {
+    "studentId": "s029",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 3.67,
+      "communityImpact": 3.33,
+      "financialAcumen": 4,
+      "innovatorMindset": 3,
+      "computationalResearch": 3,
+      "technologySkills": 3.17,
+      "mentorshipLeadership": 3
+    }
+  },
+  {
+    "studentId": "s029",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 2.83,
+      "communityImpact": 3.33,
+      "financialAcumen": 2.67,
+      "innovatorMindset": 2.83,
+      "computationalResearch": 3,
+      "technologySkills": 3,
+      "mentorshipLeadership": 3
+    }
+  },
+  {
+    "studentId": "s030",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 3.67,
+      "communityImpact": 3.33,
+      "financialAcumen": 2.83,
+      "innovatorMindset": 3.67,
+      "computationalResearch": 3.33,
+      "technologySkills": 3.83,
+      "mentorshipLeadership": 3
+    }
+  },
+  {
+    "studentId": "s030",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 3,
+      "communityImpact": 2.5,
+      "financialAcumen": 2.67,
+      "innovatorMindset": 3.5,
+      "computationalResearch": 2.83,
+      "technologySkills": 3.67,
+      "mentorshipLeadership": 2.17
+    }
+  },
+  {
+    "studentId": "s031",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 2.17,
+      "communityImpact": 2.33,
+      "financialAcumen": 2.5,
+      "innovatorMindset": 2.5,
+      "computationalResearch": 2.67,
+      "technologySkills": 2.67,
+      "mentorshipLeadership": 2.5
+    }
+  },
+  {
+    "studentId": "s031",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 3,
+      "communityImpact": 3.33,
+      "financialAcumen": 3.5,
+      "innovatorMindset": 3.33,
+      "computationalResearch": 3.17,
+      "technologySkills": 4,
+      "mentorshipLeadership": 4
+    }
+  },
+  {
+    "studentId": "s032",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 3.5,
+      "communityImpact": 3.67,
+      "financialAcumen": 3.17,
+      "innovatorMindset": 3.33,
+      "computationalResearch": 3.83,
+      "technologySkills": 3.17,
+      "mentorshipLeadership": 3.83
+    }
+  },
+  {
+    "studentId": "s032",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 3.83,
+      "communityImpact": 3.83,
+      "financialAcumen": 3.5,
+      "innovatorMindset": 3.83,
+      "computationalResearch": 3.83,
+      "technologySkills": 3.83,
+      "mentorshipLeadership": 3.83
+    }
+  },
+  {
+    "studentId": "s033",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 2.5,
+      "communityImpact": 2.83,
+      "financialAcumen": 3.17,
+      "innovatorMindset": 3.4,
+      "computationalResearch": 3.67,
+      "technologySkills": 4,
+      "mentorshipLeadership": 2.67
+    }
+  },
+  {
+    "studentId": "s033",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 3,
+      "communityImpact": 2.83,
+      "financialAcumen": 3.67,
+      "innovatorMindset": 3.6,
+      "computationalResearch": 3.67,
+      "technologySkills": 3.83,
+      "mentorshipLeadership": 2.25
+    }
+  },
+  {
+    "studentId": "s034",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 1.83,
+      "communityImpact": 2.17,
+      "financialAcumen": 1.67,
+      "innovatorMindset": 2.83,
+      "computationalResearch": 2.67,
+      "technologySkills": 4,
+      "mentorshipLeadership": 2.33
+    }
+  },
+  {
+    "studentId": "s034",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 3.83,
+      "communityImpact": 3.33,
+      "financialAcumen": 2.5,
+      "innovatorMindset": 4,
+      "computationalResearch": 4,
+      "technologySkills": 4,
+      "mentorshipLeadership": 2.33
+    }
+  },
+  {
+    "studentId": "s035",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 3.5,
+      "communityImpact": 3.83,
+      "financialAcumen": 3,
+      "innovatorMindset": 3.67,
+      "computationalResearch": 3.33,
+      "technologySkills": 3.67,
+      "mentorshipLeadership": 3.67
+    }
+  },
+  {
+    "studentId": "s035",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 3.67,
+      "communityImpact": 3.67,
+      "financialAcumen": 3.67,
+      "innovatorMindset": 3.83,
+      "computationalResearch": 3.67,
+      "technologySkills": 4,
+      "mentorshipLeadership": 3.83
+    }
+  },
+  {
+    "studentId": "s036",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 3.5,
+      "communityImpact": 3.33,
+      "financialAcumen": 2.83,
+      "innovatorMindset": 3,
+      "computationalResearch": 3,
+      "technologySkills": 3.33,
+      "mentorshipLeadership": 4
+    }
+  },
+  {
+    "studentId": "s036",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 4,
+      "communityImpact": 4,
+      "financialAcumen": 4,
+      "innovatorMindset": 4,
+      "computationalResearch": 4,
+      "technologySkills": 4,
+      "mentorshipLeadership": 4
+    }
+  },
+  {
+    "studentId": "s037",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 3,
+      "communityImpact": 3.33,
+      "financialAcumen": 3.5,
+      "innovatorMindset": 3.5,
+      "computationalResearch": 3.67,
+      "technologySkills": 4,
+      "mentorshipLeadership": 3.67
+    }
+  },
+  {
+    "studentId": "s037",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 2.83,
+      "communityImpact": 3,
+      "financialAcumen": 3.33,
+      "innovatorMindset": 2.83,
+      "computationalResearch": 2.5,
+      "technologySkills": 3,
+      "mentorshipLeadership": 3.17
+    }
+  },
+  {
+    "studentId": "s038",
+    "checkpoint": "Onboarding",
+    "scores": {
+      "teamworkOperations": 3.17,
+      "communityImpact": 3,
+      "financialAcumen": 2.5,
+      "innovatorMindset": 3.17,
+      "computationalResearch": 3.33,
+      "technologySkills": 2.17,
+      "mentorshipLeadership": 3.17
+    }
+  },
+  {
+    "studentId": "s038",
+    "checkpoint": "Exit",
+    "scores": {
+      "teamworkOperations": 3.5,
+      "communityImpact": 3.67,
+      "financialAcumen": 2.83,
+      "innovatorMindset": 3.5,
+      "computationalResearch": 3.17,
+      "technologySkills": 3.33,
+      "mentorshipLeadership": 3.17
+    }
+  }
+]

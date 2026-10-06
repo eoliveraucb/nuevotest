@@ -1,0 +1,495 @@
+/* ==========================================================================
+   Auth, privacy controls, and the user menu
+   ========================================================================== */
+
+/* ---- Navbar auth ---- */
+.navbar-auth {
+  margin-left: 8px;
+  flex-shrink: 0;
+}
+
+.auth-menu-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 14px 6px 6px;
+  border-radius: 999px;
+  border: 1.5px solid var(--purple-100);
+  background: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ink-700);
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.auth-menu-toggle:hover {
+  border-color: var(--purple-300);
+  background: var(--white);
+}
+
+.auth-menu-avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--purple-500);
+  color: var(--white);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.auth-menu-name {
+  max-width: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.auth-menu-caret {
+  border: solid var(--ink-500);
+  border-width: 0 1.5px 1.5px 0;
+  padding: 3px;
+  transform: rotate(45deg);
+  transition: transform 0.2s;
+}
+
+.auth-menu-caret.is-open {
+  transform: rotate(-135deg);
+}
+
+.auth-menu-dropdown {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 8px);
+  min-width: 240px;
+  background: var(--white);
+  border: 1px solid var(--purple-100);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-soft);
+  padding: 16px;
+  display: grid;
+  gap: 10px;
+  z-index: 110;
+}
+
+.auth-menu-email {
+  font-size: 0.85rem;
+  color: var(--ink-500);
+  word-break: break-word;
+}
+
+.auth-menu-role {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.auth-menu-mode {
+  font-size: 0.72rem;
+  color: var(--ink-300);
+}
+
+.auth-menu-dropdown a {
+  color: var(--purple-600);
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.auth-menu-dropdown a:hover {
+  text-decoration: underline;
+}
+
+.auth-menu-logout {
+  justify-self: start;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent-coral);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.role-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.role-student {
+  background: var(--purple-100);
+  color: var(--purple-700);
+}
+
+.role-teacher {
+  background: #fdeee2;
+  color: #b4551a;
+}
+
+.role-admin {
+  background: #e7f0e9;
+  color: #2e7d46;
+}
+
+/* ---- Auth page ---- */
+.auth-page {
+  padding: 80px 0 100px;
+  background: linear-gradient(180deg, var(--purple-50) 0%, var(--white) 40%);
+}
+
+.auth-card {
+  max-width: 460px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.auth-heading {
+  margin-bottom: 24px;
+}
+
+.auth-title {
+  font-size: 1.7rem;
+  margin-bottom: 8px;
+}
+
+.auth-subtitle {
+  font-size: 0.92rem;
+  color: var(--ink-500);
+}
+
+.auth-tabs {
+  display: flex;
+  gap: 4px;
+  background: var(--purple-50);
+  border-radius: 999px;
+  padding: 4px;
+  margin-bottom: 20px;
+}
+
+.auth-tab {
+  flex: 1;
+  padding: 9px 12px;
+  border: none;
+  border-radius: 999px;
+  background: transparent;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--ink-500);
+  cursor: pointer;
+}
+
+.auth-tab.is-active {
+  background: var(--white);
+  color: var(--purple-700);
+  box-shadow: var(--shadow-card);
+}
+
+.auth-form {
+  display: grid;
+  gap: 14px;
+}
+
+.field {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  border: none;
+  padding: 0;
+}
+
+.field span,
+.field legend {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink-700);
+  padding: 0;
+}
+
+.field input,
+.field select {
+  width: 100%;
+  padding: 11px 14px;
+  border: 1.5px solid var(--purple-100);
+  border-radius: var(--radius-sm);
+  font-size: 0.95rem;
+  font-family: var(--font-body);
+  color: var(--ink-900);
+  background: var(--white);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.field input:focus,
+.field select:focus {
+  outline: none;
+  border-color: var(--purple-500);
+  box-shadow: 0 0 0 3px rgba(114, 0, 243, 0.12);
+}
+
+.btn-block {
+  width: 100%;
+  justify-content: center;
+}
+
+.auth-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--ink-300);
+  font-size: 0.8rem;
+}
+
+.auth-divider::before,
+.auth-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--purple-100);
+}
+
+.auth-error {
+  background: #fdecea;
+  border: 1px solid #f5c6c0;
+  color: #a13b2e;
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  font-size: 0.85rem;
+  margin-bottom: 16px;
+}
+
+.auth-note {
+  font-size: 0.82rem;
+  color: var(--ink-500);
+}
+
+.auth-note code {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  background: var(--purple-50);
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+
+.role-options {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.role-option {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 12px;
+  border: 1.5px solid var(--purple-100);
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.role-option:has(input:checked) {
+  border-color: var(--purple-500);
+  background: var(--purple-50);
+}
+
+.auth-demo {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px dashed var(--purple-100);
+  display: grid;
+  gap: 10px;
+}
+
+.auth-demo-title {
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-500);
+}
+
+.auth-demo-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.demo-link {
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1.5px solid var(--purple-300);
+  background: transparent;
+  color: var(--purple-600);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.demo-link:hover {
+  background: var(--purple-50);
+}
+
+.auth-demo-list {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 0.82rem;
+  color: var(--ink-500);
+  display: grid;
+  gap: 4px;
+}
+
+.auth-demo-list code {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+}
+
+.auth-footer {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+/* ---- Privacy panel (student page) ---- */
+.privacy-panel-wrap {
+  margin-bottom: 32px;
+}
+
+.privacy-panel {
+  max-width: 380px;
+  padding: 20px;
+  border-left: 3px solid var(--purple-400);
+}
+
+.privacy-panel-readonly {
+  border-left-color: var(--ink-300);
+}
+
+.privacy-options {
+  display: grid;
+  gap: 8px;
+}
+
+.privacy-option {
+  display: grid;
+  grid-template-columns: 18px 1fr;
+  column-gap: 10px;
+  align-items: start;
+  padding: 10px 12px;
+  border: 1.5px solid var(--purple-100);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.privacy-option:has(input:checked) {
+  border-color: var(--purple-500);
+  background: var(--purple-50);
+}
+
+.privacy-option input {
+  margin-top: 3px;
+  accent-color: var(--purple-600);
+}
+
+.privacy-option strong {
+  font-size: 0.9rem;
+}
+
+.privacy-option small {
+  grid-column: 2;
+  color: var(--ink-500);
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+.privacy-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.privacy-saved {
+  color: var(--accent-green);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.privacy-error {
+  color: var(--accent-coral);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.privacy-note {
+  font-size: 0.88rem;
+  color: var(--ink-500);
+}
+
+/* ---- Privacy lock state ---- */
+.privacy-lock {
+  padding: 48px 32px;
+  text-align: center;
+  border: 1.5px dashed var(--purple-200);
+}
+
+/* ---- Roster private markers ---- */
+.roster-delta-private {
+  color: var(--ink-300);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* ---- Teammate chips ---- */
+.teammates-card {
+  margin-top: 28px;
+}
+
+.teammate-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.teammate-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px 6px 6px;
+  border-radius: 999px;
+  border: 1px solid var(--purple-100);
+  background: var(--purple-50);
+  color: var(--ink-700);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.teammate-chip:hover {
+  border-color: var(--purple-300);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 640px) {
+  .auth-card {
+    padding: 28px 20px;
+  }
+  .role-options {
+    grid-template-columns: 1fr;
+  }
+  .auth-menu-name {
+    display: none;
+  }
+}

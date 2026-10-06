@@ -1,0 +1,45 @@
+{
+  "stats": [
+    {
+      "label": "Students",
+      "value": "38"
+    },
+    {
+      "label": "Student-Led Businesses",
+      "value": "9"
+    },
+    {
+      "label": "Avg. Skill Growth",
+      "value": "+7%"
+    },
+    {
+      "label": "Most Improved Skill",
+      "value": "Teamwork & Operations"
+    }
+  ],
+  "keyFindings": [
+    "On average, students grew their self-assessed entrepreneurial skills by 7% from onboarding to their final exit survey.",
+    "Teamwork & Operations saw the largest overall gains, followed by Financial Acumen.",
+    "9 student-led businesses pitched for real, spanning healthcare access, civic literacy, urban sustainability, legal access, workforce development, nutrition, education, and food security.",
+    "At the Finals, TheBetterOrder took 1st place, with Forage, LAWLEO, and Keystone Careers rounding out the top 4."
+  ],
+  "closingStatement": "The IFE program is proof that when students are trusted with real problems and real ownership, they rise to meet them. Cambio Labs and Prep for Prep didn't just teach entrepreneurship — they built confidence, leadership, and belief in what these students can accomplish next.",
+  "finalsRankings": [
+    {
+      "rank": 1,
+      "teamName": "TheBetterOrder"
+    },
+    {
+      "rank": 2,
+      "teamName": "Forage"
+    },
+    {
+      "rank": 3,
+      "teamName": "LAWLEO"
+    },
+    {
+      "rank": 4,
+      "teamName": "Keystone Careers"
+    }
+  ]
+}

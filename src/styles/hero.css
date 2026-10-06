@@ -1,0 +1,365 @@
+/* ==========================================================================
+   Hero + Story Scrollytelling
+   ========================================================================== */
+
+.hero {
+  position: relative;
+  min-height: 92vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: linear-gradient(180deg, var(--purple-50) 0%, var(--white) 100%);
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.hero-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  opacity: 0.5;
+}
+
+.hero-blob-1 {
+  width: 520px;
+  height: 520px;
+  background: var(--purple-300);
+  top: -180px;
+  right: -120px;
+}
+
+.hero-blob-2 {
+  width: 400px;
+  height: 400px;
+  background: var(--accent-gold);
+  opacity: 0.25;
+  bottom: -160px;
+  left: -100px;
+}
+
+.hero-grid {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, var(--purple-100) 1px, transparent 1px);
+  background-size: 28px 28px;
+  opacity: 0.5;
+  mask-image: linear-gradient(180deg, black, transparent 80%);
+}
+
+.hero-inner {
+  position: relative;
+  z-index: 1;
+  text-align: left;
+  max-width: 760px;
+}
+
+.hero-title {
+  font-size: clamp(2.6rem, 6.5vw, 5.2rem);
+  margin: 18px 0 22px;
+  color: var(--ink-900);
+}
+
+.hero-subtitle {
+  font-size: clamp(1.05rem, 1.5vw, 1.3rem);
+  color: var(--ink-700);
+  max-width: 560px;
+}
+
+.hero-scroll-cue {
+  margin-top: 64px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--purple-500);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.hero-scroll-cue-line {
+  width: 1px;
+  height: 40px;
+  background: linear-gradient(180deg, var(--purple-400), transparent);
+  animation: scrollPulse 1.8s ease-in-out infinite;
+}
+
+@keyframes scrollPulse {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+/* ---- Story scroll (scrollytelling steps + sticky visual) ---- */
+.story-scroll {
+  padding: 60px 0 40px;
+  background: var(--white);
+}
+
+.story-scroll-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: start;
+}
+
+.story-scroll-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 30vh;
+  padding: 10vh 0 30vh;
+}
+
+.story-step {
+  max-width: 460px;
+  opacity: 0.28;
+  transform: translateY(6px);
+  transition: opacity 0.4s var(--ease-out), transform 0.4s var(--ease-out);
+}
+
+.story-step h2,
+.story-step p {
+  transition: color 0.4s var(--ease-out);
+}
+
+.story-step h2 {
+  color: var(--ink-300);
+}
+
+.story-step p {
+  color: var(--ink-300);
+}
+
+.story-step.is-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.story-step.is-active h2 {
+  color: var(--ink-900);
+}
+
+.story-step.is-active p {
+  color: var(--ink-500);
+}
+
+.story-step-index {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--purple-300);
+  font-weight: 600;
+}
+
+.story-step h2 {
+  font-size: 1.9rem;
+  margin: 10px 0 14px;
+}
+
+.story-step p {
+  font-size: 1.02rem;
+}
+
+.story-scroll-sticky {
+  position: sticky;
+  top: 18vh;
+  height: 64vh;
+  display: flex;
+  align-items: center;
+}
+
+.story-visual-frame {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  max-height: 60vh;
+  background: var(--purple-50);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--purple-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.story-visual-frame-inline {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .story-visual-frame-inline {
+    aspect-ratio: auto;
+    max-height: none;
+    height: auto;
+    padding: 24px 16px;
+    overflow: visible;
+  }
+  .story-visual-frame-inline .story-visual {
+    padding: 8px;
+  }
+}
+
+.story-visual {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+}
+
+.visual-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.visual-caption {
+  color: var(--ink-700);
+  font-size: 0.95rem;
+  max-width: 320px;
+}
+
+.handoff-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.handoff-badge {
+  padding: 14px 20px;
+  border-radius: 12px;
+  background: var(--purple-500);
+  color: white;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.handoff-badge-alt {
+  background: var(--accent-orange);
+}
+
+.program-flow {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+}
+
+.program-flow-stage {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.program-flow-dot {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--purple-500);
+  color: white;
+  font-weight: 700;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+
+.program-flow-stage span {
+  font-weight: 600;
+  color: var(--ink-800);
+  font-size: 0.95rem;
+}
+
+.program-flow-line {
+  position: absolute;
+  left: 15px;
+  top: 30px;
+  width: 2px;
+  height: 20px;
+  background: var(--purple-200);
+}
+
+.teams-preview-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.teams-preview-grid-compact {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.teams-preview-card {
+  background: white;
+  border: 1.5px solid;
+  border-radius: 12px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: left;
+}
+
+.teams-preview-card-compact {
+  padding: 8px;
+  gap: 2px;
+}
+
+.teams-preview-card-compact strong {
+  font-size: 0.7rem;
+  line-height: 1.2;
+}
+
+.teams-preview-card-compact .teams-preview-dot {
+  width: 7px;
+  height: 7px;
+  margin-bottom: 2px;
+}
+
+.teams-preview-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-bottom: 4px;
+}
+
+.teams-preview-card strong {
+  font-size: 0.9rem;
+  color: var(--ink-900);
+}
+
+.teams-preview-area {
+  font-size: 0.75rem;
+  color: var(--ink-500);
+}
+
+@media (max-width: 900px) {
+  .story-scroll-grid {
+    grid-template-columns: 1fr;
+  }
+  .story-scroll-sticky {
+    display: none;
+  }
+  .story-visual-frame-inline {
+    display: block;
+    margin: 16px 0;
+  }
+  .story-scroll-steps {
+    gap: 60px;
+    padding: 0;
+  }
+  .story-visual-frame {
+    max-height: 380px;
+  }
+  .hero-title {
+    font-size: clamp(2.2rem, 10vw, 3rem);
+  }
+}

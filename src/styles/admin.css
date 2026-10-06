@@ -1,0 +1,461 @@
+/* ==========================================================================
+   Admin content studio
+   ========================================================================== */
+
+.admin-page {
+  padding: 56px 0 100px;
+  background: var(--purple-50);
+  min-height: 70vh;
+}
+
+.admin-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.admin-head h1 {
+  font-size: clamp(2rem, 3vw, 2.5rem);
+  margin-top: 6px;
+}
+
+.admin-head-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.admin-program-chip {
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: var(--white);
+  border: 1px solid var(--purple-100);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--ink-700);
+  font-family: var(--font-mono);
+}
+
+/* ---- top-level tab buttons ---- */
+.admin-tabs {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+
+.admin-tabs .admin-tab {
+  padding: 9px 16px;
+  border-radius: 999px;
+  border: 1.5px solid var(--purple-100);
+  background: var(--white);
+  color: var(--ink-700);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s, color 0.2s;
+}
+
+.admin-tabs .admin-tab.is-active {
+  border-color: var(--purple-500);
+  background: var(--purple-500);
+  color: var(--white);
+}
+
+.admin-tabs .admin-tab:hover:not(.is-active) {
+  border-color: var(--purple-300);
+}
+
+/* ---- tab content ---- */
+.admin-tab {
+  display: grid;
+  gap: 20px;
+}
+
+.admin-tab-head h2 {
+  font-size: 1.5rem;
+  margin-bottom: 4px;
+}
+
+.admin-tab-head p {
+  max-width: 640px;
+  color: var(--ink-500);
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+}
+
+.admin-tab-head code {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  background: var(--purple-100);
+  color: var(--purple-700);
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+.admin-box {
+  padding: 24px;
+  display: grid;
+  gap: 16px;
+}
+
+.admin-box-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.admin-box-desc {
+  color: var(--ink-500);
+  font-size: 0.88rem;
+  margin-top: 4px;
+}
+
+.admin-box .card-title {
+  margin: 0;
+}
+
+/* ---- fields ---- */
+.admin-field {
+  display: grid;
+  gap: 6px;
+}
+
+.admin-field-label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink-700);
+}
+
+.admin-field input,
+.admin-field textarea,
+.admin-field select,
+.admin-csv-input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1.5px solid var(--purple-100);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  color: var(--ink-900);
+  background: var(--white);
+  resize: vertical;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.admin-field input:focus,
+.admin-field textarea:focus,
+.admin-field select:focus,
+.admin-csv-input:focus {
+  outline: none;
+  border-color: var(--purple-500);
+  box-shadow: 0 0 0 3px rgba(114, 0, 243, 0.12);
+}
+
+.admin-field-hint {
+  color: var(--ink-300);
+  font-size: 0.78rem;
+}
+
+.admin-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.admin-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.admin-inline-actions {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+/* ---- chapters / teams cards ---- */
+.admin-chapter,
+.admin-team {
+  padding: 18px;
+  display: grid;
+  gap: 14px;
+  border: 1px solid var(--purple-100);
+}
+
+.admin-chapter-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.admin-chapter-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.btn-micro {
+  padding: 5px 10px;
+  font-size: 0.78rem;
+}
+
+.admin-danger {
+  color: var(--accent-coral);
+  border-color: #f3c4bc;
+}
+
+.admin-team-swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* ---- tables ---- */
+.admin-table {
+  display: grid;
+  gap: 8px;
+}
+
+.admin-table-head,
+.admin-table-row {
+  display: grid;
+  grid-template-columns: 1.1fr 2fr 1.2fr 0.6fr 0.6fr 0.5fr;
+  gap: 10px;
+  align-items: center;
+}
+
+.admin-table-head-3 {
+  grid-template-columns: 1.2fr 1.6fr 1fr 0.5fr;
+}
+
+.admin-table-head-4 {
+  grid-template-columns: 1.6fr 1fr 1.4fr 1fr;
+}
+
+.admin-table-head span {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-300);
+}
+
+.admin-table-row {
+  padding: 10px;
+  border-radius: var(--radius-sm);
+  background: var(--white);
+  border: 1px solid var(--purple-100);
+}
+
+.admin-table-row input,
+.admin-table-row select {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1.5px solid var(--purple-100);
+  border-radius: var(--radius-sm);
+  font-size: 0.88rem;
+  font-family: var(--font-body);
+  color: var(--ink-900);
+}
+
+.admin-table-row input:focus,
+.admin-table-row select:focus {
+  outline: none;
+  border-color: var(--purple-500);
+}
+
+.admin-id-input {
+  font-family: var(--font-mono);
+  font-size: 0.8rem !important;
+}
+
+.admin-check {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.admin-check input {
+  accent-color: var(--purple-600);
+  width: auto;
+}
+
+.admin-check-label {
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--ink-500);
+  align-items: center;
+}
+
+.admin-acct {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-acct strong {
+  font-size: 0.9rem;
+}
+
+.admin-acct small {
+  color: var(--ink-300);
+  font-size: 0.78rem;
+}
+
+.admin-acct-status {
+  font-size: 0.78rem;
+  min-height: 1em;
+}
+
+/* ---- findings ---- */
+.admin-finding {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.admin-finding textarea {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1.5px solid var(--purple-100);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  resize: vertical;
+}
+
+/* ---- import ---- */
+.admin-csv-input {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+}
+
+.admin-csv-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.admin-csv-actions input[type="file"] {
+  font-size: 0.82rem;
+  color: var(--ink-500);
+}
+
+.admin-diagnostics {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.admin-diag {
+  flex: 1;
+  min-width: 110px;
+  padding: 14px;
+  border-radius: var(--radius-sm);
+  background: var(--purple-50);
+  border: 1px solid var(--purple-100);
+  text-align: center;
+}
+
+.admin-diag strong {
+  display: block;
+  font-size: 1.5rem;
+  color: var(--purple-700);
+}
+
+.admin-diag span {
+  font-size: 0.78rem;
+  color: var(--ink-500);
+}
+
+.admin-diag-coverage {
+  font-size: 0.88rem;
+  color: var(--ink-500);
+}
+
+.admin-warning {
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  background: #fff7e8;
+  border: 1px solid #f5d9a0;
+  color: #8a5a06;
+  font-size: 0.85rem;
+}
+
+.admin-downloads {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.admin-downloads-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--ink-500);
+}
+
+/* ---- status / misc ---- */
+.admin-savebar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 8px;
+}
+
+.admin-empty {
+  color: var(--ink-300);
+  font-size: 0.9rem;
+}
+
+.admin-error {
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  background: #fdecea;
+  border: 1px solid #f5c6c0;
+  color: #a13b2e;
+  font-size: 0.85rem;
+}
+
+.admin-footnote {
+  margin-top: 32px;
+  font-size: 0.82rem;
+  color: var(--ink-300);
+}
+
+.admin-denied {
+  max-width: 520px;
+  margin: 60px auto;
+  padding: 40px;
+  text-align: center;
+  display: grid;
+  gap: 14px;
+  justify-items: center;
+}
+
+.admin-denied-title {
+  font-size: 1.6rem;
+}
+
+@media (max-width: 800px) {
+  .admin-grid-2,
+  .admin-grid-3 {
+    grid-template-columns: 1fr;
+  }
+  .admin-table-head,
+  .admin-table-row {
+    grid-template-columns: 1.2fr 1.5fr 0.5fr;
+    font-size: 0.85rem;
+  }
+  .admin-table-head span:nth-child(n + 4),
+  .admin-table-row > *:nth-child(n + 4) {
+    display: none;
+  }
+}
